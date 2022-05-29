@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Main wrapper */
+body{
+   background-color: #f6f6f6;
+}
+section{
+    background: linear-gradient(180deg, #fdfdfd, #fffaf3);
+    margin: 3em auto;
+}
+.main-container {
+	max-width: 1440px;
+	margin: auto;
+	padding: 4em 2em;
+}
+/* Top Title */
+.top-title {
+	margin-bottom: 1.4em;
+	padding: 0 .6em;
+}
+.backspace{
+    color: silver;
+    font-weight: 300 !important;
+    padding: 0 .5em;
+}
+
+.top-title a{
+    font-size: 13px;
+    color: #222;
+}
+
+
+/* Boxes */
+.grid-container{
+    display: flex;
+}
+.box-wrap {
+	width: 25%;
+	padding: 0 1em;
+}
+
+.boxes {
+	background: #fff;
+	border-radius: 12px;
+	overflow: hidden;
+	border: 1px solid #EBF3FD;
+	box-shadow: 0 4px 10px -3px #E0E6ED;
+}
+.box-image {
+	width: 100%;
+}
+
+/*  */
+.img-bottom {
+	background: #fff0f1;
+	padding: 8px;
+	margin-top: -30px;
+	position: relative;
+}
+.img-bottom p {
+	font-size: 13px;
+	text-align: center;
+    color: #333;
+    font-family: Rubik;
+}
+
+.btm-top {
+	padding: 1.3em;
+	border-bottom: 1px solid #EBF3FD;
+}
+
+/*  */
+.subtitle {
+	font-size: 13px;
+	font-weight: normal;
+	font-family: Rubik;
+    color: #4D4C4C;
+}
+
+.title {
+	color: #333;
+	font-size: 20px;
+	font-family: Rubik;
+	font-weight: 500;
+	margin: .6em auto;
+}
+.title-btm {
+	font-size: 16px;
+	color: #333;
+	font-family: Rubik;
+	font-weight: normal;
+	line-height: 24px;
+	margin-bottom: .7em;
+}
+
+
+/*  */
+
+.rating-box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-text p {
+	font-size: 13px;
+	font-family: Rubik;
+	text-transform: capitalize;
+	color: #4D4C4C;
+}
+
+.right-box span {
+	font-size: 15px;
+	font-family: Rubik;
+	color: #CA8109;
+	font-weight: 500;
+}
+
+.count {
+	font-size: 13px !important;
+	color: #4D4C4C !important;
+}
+
+.stars {
+	width: 62px;
+	margin: auto 3px;
+}
+
+.left-text {
+	display: flex;
+	align-items: center;
+}
+
+
+
+/*  */
+
+.pricing {
+	display: flex;
+	justify-content: space-between;
+	margin-top: .5em;
+}
+.price {
+	font-size: 18px;
+	font-family: Rubik;
+	color: #5E3F64;
+}
+
+.b-space {
+	color: silver;
+	font-weight: normal;
+	font-size: 14px !important;
+	padding: 0 .4em;
+}
+
+del {
+	color: silver;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Rubik;
+}
+
+.right-image {
+	display: flex;
+}
+
+.btn {
+	font-size: 13px;
+	font-family: Rubik;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #444;
+	padding: 16px;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover{
+    background: #f7f7f7;
+}
+
+
+
+
+
+/* Responsive */
+
+@media all and (max-width: 576px ) {
+    .grid-container {
+        display: block;
+    }
+    .box-wrap {
+        width: 100%;
+        padding: 0;
+    }
+    .top-title {
+        padding: 0;
+        margin-bottom: 1em;
+    }
+    section {
+        margin: 0;
+    }
+    .main-container {
+        padding: 3em 2em;
+    }
+    .boxes {
+        margin-bottom: 2em;
+    }
+    .stars {
+        width: 55px;
+        margin: 0;
+    }
+}
